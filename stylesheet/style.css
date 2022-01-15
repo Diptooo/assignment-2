@@ -378,9 +378,9 @@ footer p{
         display: none;
     } */
 
-    .popular-collection-container{
+    /* .popular-collection-container{
         display: none;
-    }
+    } */
 
     .exclusive-features-container{
         display: none;
@@ -512,6 +512,24 @@ footer p{
     }
 
 
+
+
+
+
+
+
+
+
+
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        justify-content: center;
+        margin-right: 0;
+        overflow-x: hidden;
+        
+    }
 
 
 
