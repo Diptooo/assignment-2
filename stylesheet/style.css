@@ -137,6 +137,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 /* Main Part 3 */
@@ -255,8 +256,90 @@ header{
     color: #EF2F88;
     justify-content: flex-end;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .see-more:hover{
     color:#8843F2;
+}
+
+/* Main Part 4 */
+
+.exclusive-features-container{
+    padding-left: 196px;
+    padding-right: 197px;
+}
+
+.exclusive-features-title h1{
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    color: #8843F2;
+}
+
+.exclusive-features{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+
+.exclusive-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.exclusive-feature i{
+    font-size: 40px;
+    color: #146356;
+}
+
+.exclusive-feature:hover i{
+    color: #FB8200;
+}
+
+.exclusive-feature p{
+    font-size: 14px;
+    color: #18191F;
+}
+
+.exclusive-feature:hover p{
+    color: #FB8200;
+}
+
+/* Footer Part */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: .3;
+    background-color: #000214;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-title h1{
+    font-size: 24px;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+.footer-logos{
+    margin-top: 10px;
+}
+
+.footer-logos i{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
 }
