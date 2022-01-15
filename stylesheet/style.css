@@ -366,7 +366,7 @@ footer p{
 
 /* Media Query */
 
-/* Mobile Devices */
+/* Mobile Devices (Tested by Pixel 5) */
 
 
 @media only screen and (max-width:688px) {
@@ -539,38 +539,7 @@ footer p{
 
 /* Mobile Devices */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Tablet Devices */
+/* Tablet Devices (Tested by iPad Air) */
 
 
 @media only screen and (min-width:688px) and (max-width:992px) {
@@ -754,3 +723,5 @@ footer p{
 }  
 
 /* Tablet Devices */
+
+/* Media Query */
