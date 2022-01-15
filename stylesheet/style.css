@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* Font */
+
 /* Common Styles or Utilites */
 
 body{
@@ -11,6 +13,8 @@ body{
 a{
     text-decoration: none;
 }
+
+/* Common Styles or Utilites */
 
 /* Animation */
 
@@ -26,6 +30,7 @@ a{
     100% {background-color: #EF2F88;}
   }
 
+  /* Animation */
 
 /* Header Part */
 
@@ -65,6 +70,8 @@ header{
     color:#8843F2;
     font-size: 130%;
 }
+
+/* Header Part */
 
 /* Main Part */
 
@@ -120,6 +127,8 @@ header{
     animation: button-container 1s linear 0s infinite backwards;
 }
 
+/* Main Part 1 */
+
 /* Main Part 2 */
 
 .logo-container{
@@ -139,6 +148,8 @@ header{
     justify-content: space-between;
     cursor: pointer;
 }
+
+/* Main Part 2 */
 
 /* Main Part 3 */
 
@@ -263,6 +274,8 @@ header{
     color:#8843F2;
 }
 
+/* Main Part 3 */
+
 /* Main Part 4 */
 
 .exclusive-features-container{
@@ -312,6 +325,10 @@ header{
     color: #FB8200;
 }
 
+/* Main Part 4 */
+
+/* Main Part */
+
 /* Footer Part */
 
 footer{
@@ -343,3 +360,5 @@ footer p{
     margin-right: 10px;
     cursor: pointer;
 }
+
+/* Footer Part */
