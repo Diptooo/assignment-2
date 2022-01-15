@@ -624,4 +624,18 @@ footer p{
     
 
 
+
+    .footer-title h1{
+        font-size: 16px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+    
+    .footer-logos{
+        margin-top: 7px;
+    }
+
+
 }  
