@@ -368,18 +368,15 @@ footer p{
 /* Mobile Devices */
 
 
-
-
-
 @media only screen and (max-width:688px) {
    
-    .start-your-container{
+    /* .start-your-container{
         display: none;
-    }
+    } */
 
-    .logo-container{
+    /* .logo-container{
         display: none;
-    }
+    } */
 
     .popular-collection-container{
         display: none;
@@ -408,7 +405,10 @@ footer p{
 
 
 
-
+    .start-your-container{
+        display: flex;
+        flex-direction: column;
+    }
 
 
     body{
@@ -451,6 +451,65 @@ footer p{
 
 
 
+    
+
+
+    .start-your-details{
+        order: 2;
+        margin-right: 0;
+    }
+
+    .start-your-title h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .start-your-article p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .start-your-picture{
+        order: 1;
+    }
+
+    .start-your-picture img{
+        width: 257px;
+        height: 257px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .logo-container{
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+    
+    .logo-list{
+        padding-right: 5px;
+        
+    }
+    .logo-list img{
+        width: 30px;
+        padding-left: 5px;
+    }
 
 
 
