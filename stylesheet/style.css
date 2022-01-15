@@ -14,11 +14,18 @@ a{
 
 /* Animation */
 
+@keyframes button-container {
+    0% {padding-left: 12px}
+    50% {padding-left: 6px}
+    100% {padding-left: 12px}
+  }
+
 @keyframes button {
     0% {background-color: #EF2F88;}
     50% {background-color: #8843F2;}
     100% {background-color: #EF2F88;}
   }
+
 
 /* Header Part */
 
@@ -107,6 +114,10 @@ header{
 
 .start-your-button a:hover{
     animation: button 3s linear 0s infinite forwards;
+}
+
+.first-button:hover i{
+    animation: button-container 1s linear 0s infinite backwards;
 }
 
 /* Main Part 2 */
