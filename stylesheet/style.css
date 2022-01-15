@@ -170,11 +170,11 @@ header{
 }
 
 .collection:hover .fa-star{
-    color: #EF2F88;
+    color: #146356;
 }
 
 .collection:hover .fa-star-half-alt{
-    color: #EF2F88;
+    color: #146356;
 }
 
 .collection:hover .ratings-in-number p{
@@ -233,12 +233,19 @@ header{
     margin-top: 0%;
 }
 
+.see-more-container{
+    width: 1200px;
+}
+
 .see-more{
     display: flex;
     align-items: center;
     font-weight: 700;
     color: #EF2F88;
-    position: relative;
-    left: 1200px;
-    
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.see-more:hover{
+    color:#8843F2;
 }
