@@ -370,47 +370,6 @@ footer p{
 
 @media only screen and (max-width:688px) {
    
-    /* .start-your-container{
-        display: none;
-    } */
-
-    /* .logo-container{
-        display: none;
-    } */
-
-    /* .popular-collection-container{
-        display: none;
-    } */
-
-    /* .exclusive-features-container{
-        display: none;
-    } */
-
-    /* footer{
-        display: none;
-    } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .start-your-container{
-        display: flex;
-        flex-direction: column;
-    }
-
-
     body{
         width:100%;
         overflow-x: hidden;
@@ -446,13 +405,10 @@ footer p{
         font-size: 8px;
     }
 
-
-
-
-
-
-    
-
+    .start-your-container{
+        display: flex;
+        flex-direction: column;
+    }
 
     .start-your-details{
         order: 2;
@@ -478,23 +434,6 @@ footer p{
         height: 257px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .logo-container{
         align-items: center;
         margin-left: 0;
@@ -512,19 +451,6 @@ footer p{
         width: 30px;
         padding-left: 5px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .popular-collection-container{
         margin-top: 0;
@@ -572,6 +498,45 @@ footer p{
         margin-bottom: 20px;
     }
 
+    .exclusive-features-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .exclusive-features-title h1{
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: #8843F2;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .exclusive-features{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
+    }
+
+    .footer-title h1{
+        font-size: 16px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+    
+    .footer-logos{
+        margin-top: 7px;
+    }
+
+}  
+
+/* Mobile Devices */
 
 
 
@@ -596,6 +561,152 @@ footer p{
 
 
 
+
+
+
+
+
+
+
+
+/* Tablet Devices */
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+
+    body{
+        width:100%;
+        overflow-x: hidden;
+        
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0;
+        overflow-x: hidden;
+        line-height: .75;
+    }
+
+    .website-title{
+        order: 2;
+    }
+
+    .website-title h3{
+        font-size: 30px;
+    }
+    
+    .top-menu-bar{
+        display: flex;
+        order: 1;
+        padding-left: 25px;
+        padding-top: 5px;
+    }
+
+    .top-menu-bar p{
+        font-size: 12px;
+    }
+
+    .start-your-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .start-your-details{
+        order: 2;
+        margin-right: 0;
+    }
+
+    .start-your-title h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .start-your-article p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .start-your-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .start-your-picture{
+        order: 1;
+    }
+
+    .start-your-picture img{
+        width: 257px;
+        height: 257px;
+    }
+
+    .logo-container{
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .logo-list{
+        padding-right: 5px;
+        
+    }
+    .logo-list img{
+        width: 50px;
+        padding-left: 5px;
+    }
+
+    .popular-collection-container{
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        overflow-x: hidden;
+        margin-bottom: 50px;
+    }
+
+
+    .popular-collection-title h3{
+        font-weight: 600;
+        font-size: 28px;
+        text-align: center;
+        color: #3A3A3A;
+        margin-top: 0;
+    }
+    
+    .collections{
+        padding-left: 35px;
+        padding-right: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        margin-right: 37px;
+        
+    }
+    
+    .collection{
+        width: 329px;
+        height: 497px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+    }
+    
+    .see-more-container{
+        width: 100%;
+    }
+
+    .see-more{
+        margin-right: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
     .exclusive-features-container{
         padding-left: 0px;
@@ -621,10 +732,6 @@ footer p{
         
     }
 
-    
-
-
-
     .footer-title h1{
         font-size: 16px;
     }
@@ -637,5 +744,6 @@ footer p{
         margin-top: 7px;
     }
 
-
 }  
+
+/* Tablet Devices */
