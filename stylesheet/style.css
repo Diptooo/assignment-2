@@ -362,3 +362,98 @@ footer p{
 }
 
 /* Footer Part */
+
+/* Media Query */
+
+/* Mobile Devices */
+
+
+
+
+
+@media only screen and (max-width:688px) {
+   
+    .start-your-container{
+        display: none;
+    }
+
+    .logo-container{
+        display: none;
+    }
+
+    .popular-collection-container{
+        display: none;
+    }
+
+    .exclusive-features-container{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body{
+        width:100%;
+        overflow-x: hidden;
+        
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0;
+        overflow-x: hidden;
+        line-height: .5;
+    }
+
+    .website-title{
+        order: 2;
+    }
+
+    .website-title h3{
+        font-size: 16px;
+    }
+    
+    .top-menu-bar{
+        display: flex;
+        order: 1;
+        padding-left: 25px;
+        padding-top: 5px;
+    }
+
+    .top-menu-bar p{
+        font-size: 9px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}  
