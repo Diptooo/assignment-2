@@ -305,6 +305,7 @@ header{
     margin-left: 15px;
     margin-right: 15px;
     cursor: pointer;
+    text-align: center;
 }
 
 .exclusive-feature i{
@@ -680,10 +681,11 @@ footer p{
     }
     
     .collections{
-        padding-left: 35px;
+        padding-left: 65px;
         padding-right: 0px;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0;
         grid-row-gap: 30px;
         margin-right: 37px;
         
@@ -703,7 +705,8 @@ footer p{
     }
 
     .see-more{
-        margin-right: 25px;
+        display: flex;
+        justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -726,10 +729,14 @@ footer p{
     
     .exclusive-features{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 40px;
-        margin-bottom: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 70px;
+        margin-bottom: 70px;
         
+    }
+
+    .exclusive-feature{
+        text-align: center;
     }
 
     .footer-title h1{
